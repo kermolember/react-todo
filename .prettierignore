@@ -1,0 +1,9 @@
+.next
+.test-dist
+node_modules
+package-lock.json
+AGENTS.md
+docker-compose.yml
+eslint.config.mjs
+MIGRATION_PLAN.md
+next.config.ts

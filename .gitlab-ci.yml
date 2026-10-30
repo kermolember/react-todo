@@ -1,0 +1,9 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  tags:
+    - shared
+  script:
+    - docker compose -p react2-task-manager up --build --remove-orphans --detach
